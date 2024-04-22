@@ -3,7 +3,7 @@
 /*!
  * bweb - file server for node.js
  * Copyright (c) 2019, Christopher Jeffrey (MIT License).
- * https://github.com/bcoin-org/bweb
+ * https://github.com/raptoracle/bweb
  */
 
 'use strict';

@@ -1,7 +1,7 @@
 /*!
  * test/http-test.js - HTTP/1.1 tests for bweb
  * Copyright (c) 2019, Mark Tyneway (MIT License).
- * https://github.com/bcoin-org/bweb
+ * https://github.com/raptoracle/bweb
  */
 
 'use strict';

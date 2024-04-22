@@ -8,10 +8,10 @@
     "websockets"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bweb.git",
-  "homepage": "https://github.com/bcoin-org/bweb",
+  "repository": "git://github.com/raptoracle/bweb.git",
+  "homepage": "https://github.com/raptoracle/bweb",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bweb/issues"
+    "url": "https://github.com/raptoracle/bweb/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/bweb.js",
@@ -24,11 +24,11 @@
     "test-ci": "nyc -a -n 'lib/**/*.js' --reporter=lcov --reporter=text npm run test"
   },
   "dependencies": {
-    "bsert": "~0.0.12",
-    "bsock": "~0.1.11"
+    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13",
+    "bsock": "git+https://github.com/raptoracle/bsock.git#semver:~0.1.11"
   },
   "devDependencies": {
-    "bmocha": "^2.1.10"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0"
   },
   "engines": {
     "node": ">=8.0.0"

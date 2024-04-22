@@ -16,3 +16,4 @@ test/
 webpack.*.js
 yarn.lock
 .github/
+.DS*

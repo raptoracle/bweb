@@ -1,7 +1,7 @@
 /*!
  * test/util/common.js - Common test helpers for bweb.
  * Copyright (c) 2019, Mark Tyneway (MIT License).
- * https://github.com/bcoin-org/bweb
+ * https://github.com/raptoracle/bweb
  */
 
 'use strict';
