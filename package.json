@@ -24,11 +24,11 @@
     "test-ci": "nyc -a -n 'lib/**/*.js' --reporter=lcov --reporter=text npm run test"
   },
   "dependencies": {
-    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13",
-    "bsock": "git+https://github.com/raptoracle/bsock.git#semver:~0.1.11"
+    "bsert": "git+https://github.com/raptoracle/bsert.git",
+    "bsock": "git+https://github.com/raptoracle/bsock.git"
   },
   "devDependencies": {
-    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git"
   },
   "engines": {
     "node": ">=8.0.0"
